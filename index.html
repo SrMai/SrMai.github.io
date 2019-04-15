@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WebRex</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+<h1 class="abody">Panel</h1>
+<hr>
+    <?php require 'partials/header.php' ?>
+    <?php if(!empty($user)): ?>
+	  <?= $user['email']; ?>
+    <?php else: ?>
+  <h1 class="general">Please Login or SignUp</h1>
+
+  <a href="ingresar/login.php" style="color:red;" >Login</a> <color style="color:white;" >OR</color>
+  <a href="ingresar/signup.php" style="color:red;">SignUp</a>
+    <?php endif; ?>
+	  <p></p>
+	  <p>Otra?</p>
+	  <a href="menu/menu.html" style="color:blue;">otro menu</a>
+</body>
+</html>
