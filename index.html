@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carlos Ayala</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+    <style>
+        body{
+            color:ivory;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(header.jpg) center;
+            z-index: -1;
+        }
+        .hr-light{
+            background-color:#f8f9fa;
+        }
+        .bg-min-dark{
+            background-color: #096fd4a1;
+        }
+
+        .btn2{
+            background-color: #ffffff00;
+            border-color: #ffffff00;
+            color: white;
+        }
+
+        .btn2, button:hover{
+            cursor: pointer;
+            animation-name: logi;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        /*--------------------------------Animaciones----------------------------*/
+        @keyframes logi{
+            25% {color: #fffafa}
+            50% {color: #fce8e8}
+            75% {color: #c3facf}
+            50% {color: #fce8e8}
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center" style="font-family:Bookman;">Carlos Ayala</h1>
+    <div style="border-radius:15px; margin:1%;" class="text-center bg-dark py-5">
+        <img src="foto.jpg" alt="" width="200px" height="200px" class="rounded-circle">
+    </div>
+    <div id="accordion">
+    <div style="color:white; border-radius:15px; margin:1%;" class="div salta text-center bg-min-dark font-weight-light">
+        <p style="font-size: 25px;"><button class="btn2" data-toggle="collapse" data-target="#bienvenido" aria-expanded="true" aria-controls="collapseOne">
+                Bienvenido
+              </button>
+        </p>
+        <div id="bienvenido" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <hr style="width: 90%;" class="hr-light">
+            <div class="card-body">
+                  <p style="font-size: 15px;">Bienvenido a esta pagina, aqui encontraras varios proyectos tanto publicos como privados.</p>
+            </div>
+        </div>
+    </div>
+    <hr style="width: 50%;" class="hr-light">
+
+    <div style="color:white; border-radius:15px; margin:1%;" class="div salta text-center bg-min-dark font-weight-light">
+        <p style="font-size: 25px;"><button class="btn2" data-toggle="collapse" data-target="#valentin" aria-expanded="true" aria-controls="collapseOne">
+            Valentin - Proyecto
+        </button>
+    </p>
+        <div id="valentin" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <hr style="width: 90%; padding: 0px;" class="hr-light">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p style="font-size: 15px;">
+                            En esta pagina podras encontrar la informacion de Valentin el grasoso, tambien una galeria de sus fotos! 7u7
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="valentin"><img src="04.jpg" alt="" class="img-fluid rounded"></a>
+                        <br>
+                        <p style="font-size:13px;">
+                            (Click en la fotografia para ir al proyecto)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <hr style="width: 50%;" class="hr-light">
+
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
