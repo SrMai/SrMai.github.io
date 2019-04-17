@@ -33,11 +33,15 @@
             color: white;
         }
 
-        .btn2, button:hover{
+        div p button:hover{
             cursor: pointer;
             animation-name: logi;
             animation-duration: 2s;
-            animation-iteration-count: infinite;
+            animation-iteration-count:infinite;
+        }
+
+        div a, i:hover{
+            color:#0084ff;
         }
 
         /*--------------------------------Animaciones----------------------------*/
@@ -88,9 +92,10 @@
         <img src="foto.jpg" alt="" width="200px" height="200px" class="rounded-circle">
     </div>
     <div id="accordion">
-    <div style="color:white; border-radius:15px; margin:1%;" class="div salta text-center bg-min-dark font-weight-light">
+    <div style="color:white; border-radius:15px; margin:1%;" class="text-center bg-min-dark font-weight-light">
         <p style="font-size: 25px;"><button class="btn2" data-toggle="collapse" data-target="#bienvenido" aria-expanded="true" aria-controls="collapseOne">
                 Bienvenido
+                <i class="fab fa-angellist"></i>
               </button>
         </p>
         <div id="bienvenido" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -119,6 +124,7 @@
                     <div class="col-md-6">
                         <a href="valentin"><img src="04.jpg" alt="" class="img-fluid rounded"></a>
                         <br>
+                        <a style="color:#fffafa; font-size: 20px" href="valentin"><i class="fas fa-arrow-up"></i></a>
                         <p style="font-size:13px;">
                             (Click en la fotografia para ir al proyecto)
                         </p>
