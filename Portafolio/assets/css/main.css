@@ -1,0 +1,262 @@
+/* Frame 1 */
+
+body {
+    position: relative;
+    width: 1470px;
+    height: 1408px;
+    background: #FFFFFF;
+}
+
+
+/* programador 1 */
+
+.programador1 {
+    position: absolute;
+    width: 615px;
+    height: 615px;
+    left: 961px;
+    top: 255px;
+}
+
+
+/* Frame 16 */
+
+.frame16 {
+    position: absolute;
+    width: 748px;
+    height: 725px;
+    left: 0px;
+    top: 200px;
+}
+
+
+/* certificacion 1 */
+
+.certificado {
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    left: 389px;
+    top: 424px;
+}
+
+
+/* contrato 1 */
+
+.contrato {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 133px;
+    top: 423px;
+}
+
+
+/* Hola! ¿Piesas crear un nuevo proyecto? !¿Aún no tienes un desarrollador?! Contactame y puedo cotizar tu proyecto, aqui mismo podrás ver algunos de mis trabajos profesionales/personales, experiencia laboral y mis certificados. */
+
+.texto2 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+
+/* or 26px */
+
+
+/* Bienvenido */
+
+.texto1 {
+    position: absolute;
+    width: 748px;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding-left: 15%;
+}
+
+
+/* Nav */
+
+.nav1 {
+    position: absolute;
+    width: 1470px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+
+/* Frame 15 */
+
+.contenidoNav {
+    position: absolute;
+    width: 1222px;
+    height: 80px;
+    left: 154px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+
+/* Nav/Items */
+
+
+/* Sobremi */
+
+.NavItemSobreMi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 97px;
+    height: 48px;
+    left: 676px;
+    top: 16px;
+}
+
+
+/* Contacto */
+
+.NavItemContacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 93px;
+    height: 48px;
+    left: 1008px;
+    top: 16px;
+}
+
+
+/* Inicio */
+
+.NavItemInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 72px;
+    height: 48px;
+    left: 47px;
+    top: 16px;
+}
+
+
+/*Trabajos*/
+
+.NavItemTrabajos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 87px;
+    height: 48px;
+    left: 354px;
+    top: 16px;
+}
+
+
+/* Frame 3 */
+
+
+/* Auto Layout */
+
+.NavItemIcono {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 87px;
+    height: 48px;
+    left: 354px;
+    top: 16px;
+}
+
+
+/* Avatar */
+
+.avatar {
+    position: static;
+    width: 48px;
+    height: 48px;
+    left: 18px;
+    top: 0px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+
+/* Vector */
+
+.vectorIMG {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+    background: linear-gradient(90deg, #00F38D 0%, #009EFF 100%);
+    position: absolute;
+    left: 22.92%;
+    right: 22.92%;
+    top: 20.83%;
+    bottom: 25%;
+    background: #FFFFFF;
+}
+
+
+/* Frame 1 */
+
+
+/* Auto Layout */
+
+.IconoNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 24px;
+    position: absolute;
+    width: 117px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(283.7deg, #54E346 0.12%, #162BEE 50.6%, #54E346 94.61%), rgba(14, 73, 181, 0.23);
+    background-blend-mode: color-dodge, normal;
+}
+
+
+/* codificacion-html 1 */
+
+.IconoSVGNav {
+    position: static;
+    width: 69px;
+    height: 84px;
+    left: 24px;
+    top: -2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
